@@ -4,7 +4,7 @@ function updateClock() {
     const secondHand = document.getElementById('second-hand');
 
     const now = new Date();
-    const hours = now.getHours() % 12; // Convert to 12-hour format
+    const hours = now.getHours() % 12; // Convert to 12-hour format 
     const minutes = now.getMinutes();
     const seconds = now.getSeconds();
 
@@ -14,7 +14,7 @@ function updateClock() {
         hr = d.getHours();
         min = d.getMinutes();
         sec = d.getSeconds();
-        hr_rotation = 30 * hr + min / 2; //converting current time
+        hr_rotation = 30 * hr + min / 2; //converting current time 
         min_rotation = 6 * min;
         sec_rotation = 6 * sec;
     
